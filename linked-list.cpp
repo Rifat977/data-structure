@@ -44,10 +44,10 @@ void reverseList(struct Node* node){
 
 int main(){
 	push(25); push(39); push(57);
-//	cout << "Original elements: ";
-//	display();
 //	reverseList(head);
 	display();
+	
+	return 0;
 }
 
 
