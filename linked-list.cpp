@@ -8,7 +8,7 @@ struct Node{
 
 struct Node* head = NULL;
 
-void push(int new_data){
+void addFirst(int new_data){
 	struct Node* new_node = (struct Node*) malloc(sizeof(struct Node));
 	new_node->data = new_data;
 	new_node->next = head;
@@ -43,8 +43,7 @@ void reverseList(struct Node* node){
 }
 
 int main(){
-	push(25); push(39); push(57);
-//	reverseList(head);
+	addFirst(25); addFirst(39); addFirst(57);
 	display();
 	
 	return 0;
