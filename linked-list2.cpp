@@ -56,8 +56,8 @@ int main(){
 	system("color 0F");
 		
 	addLast(10);
-	addLast(20);
-	addLast(30);
+//	addLast(20);
+//	addLast(30);
 	addFirst(0);
 	
 	display();
